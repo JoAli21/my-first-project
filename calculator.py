@@ -6,3 +6,9 @@ def subtract(a, b):
 
 print("4 x 5 =", multiply(4, 5))
 print("10 - 3 =", subtract(10, 3))
+def divide(a, b):
+    if b == 0:
+        return "Error: cannot divide by zero"
+    return a / b
+print("10 / 2 =", divide(10, 2))
+print("10 / 0 =", divide(10, 0))
