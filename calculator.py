@@ -11,4 +11,4 @@ def divide(a, b):
         return "Error: cannot divide by zero"
     return a / b
 print("10 / 2 =", divide(10, 2))
-print("10 / 0 =", divide(10, 0))
+print("10 / 3 =", divide(10, 0))
