@@ -1,0 +1,28 @@
+git status
+echo "hello" > a.txt
+git add a.txt
+git commit -m "first commit"
+git log
+echo "line 2" >>a.txt 
+git siff
+git add.
+git commit -m "edit a.txt"
+echo "x" >b.txt 
+git add b .txt 
+git restore --staged b.txt
+
+git branch
+git branch reature-1 
+git switch feature-1
+echo "f1" >f1.txt
+git add .
+git commit -m "add f1"
+git switch master
+git merge feeature-1
+git branch  -d fearure-1
+git log --omeline
+git checkout <
+git checkout master
+echo "*.log" > .gitignore
+git remote add orign gttps://github.com/JoAli21/ name repo.git
+git push -U origin master
